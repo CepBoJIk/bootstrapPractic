@@ -11,49 +11,135 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="content-wrap">
-            <header class='d-flex flex-wrap justify-content-between'>
-                <div class="logo text-uppercase"></div>
-                <form action="#" class='search-form d-flex flex-nowrap align-items-center flex-shrink-0'>
-                    <input type="text" name="search" class=" search-form__input px-3">
-                    <input type="submit" value="GO" class="search-form__btn text-white">
-                </form>
-            </header>
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="content-wrap">
 
-            <nav>
-                <ul class="navigation-box list-unstyled d-flex text-center text-uppercase flex-wrap">
-                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block navigation-box__link_active">home</a></li>
-                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">about us</a></li>
-                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">service</a></li>
-                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">partnersG</a></li>
-                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">customers</a></li>
-                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">project</a></li>
-                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">careers</a></li>
-                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">contact</a></li>
-                </ul>
-            </nav>
+                <!-- Header -->
 
-            <div class="head-news">
-                <div class="head-news__text col-md-7">
-                    <h1>Aliquam pharetra vulputate</h1>
-                    <p>Vivamus est mauris, sollicitudin ut ipsum pharetra, porta rutrum turpis. 
-                        Suspendisse sollicitudin quam eget condimentum posuere. In auctor vel mi porta commodo. 
-                        Vestibulum mattis fringilla tempus. Etiam eu consectetur nisi. Aenean blandit sodales euismod. 
-                        In hac habitasse platea dictumst. </p>
-                    <input type="button" value="READ MORE">
+                <header class='d-flex flex-wrap justify-content-between'>
+                    <div class="logo text-uppercase"></div>
+                    <form action="#" class='search-form d-flex flex-nowrap align-items-center flex-shrink-0'>
+                        <input type="text" name="search" class=" search-form__input px-3">
+                        <input type="submit" value="GO" class="search-form__btn text-white">
+                    </form>
+                </header>
+
+                <!-- Navigation -->
+
+                <nav>
+                    <ul class="navigation-box list-unstyled d-flex text-center text-uppercase flex-wrap">
+                        <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block navigation-box__link_active">home</a></li>
+                        <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">about us</a></li>
+                        <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">service</a></li>
+                        <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">partnersG</a></li>
+                        <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">customers</a></li>
+                        <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">project</a></li>
+                        <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">careers</a></li>
+                        <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Head news -->
+
+                <div class="head-news">
+                    <div class="head-news__text col-md-7">
+                        <h1>Aliquam pharetra vulputate</h1>
+                        <p>Vivamus est mauris, sollicitudin ut ipsum pharetra, porta rutrum turpis. 
+                            Suspendisse sollicitudin quam eget condimentum posuere. In auctor vel mi porta commodo. 
+                            Vestibulum mattis fringilla tempus. Etiam eu consectetur nisi. Aenean blandit sodales euismod. 
+                            In hac habitasse platea dictumst. </p>
+                        <input type="button" value="READ MORE">
+                    </div>
                 </div>
+
+                <!-- News content -->
+
+                <div class="news-content row">
+
+                    <div class="news-content__wrap col-md-6">
+                        <div class="news-content__elem d-flex">
+                            <a href="#" class='news-content__header'>about super logo</a>
+                            <div class="news-content__img">
+                                <img src="./img/news-img-1.jpg" alt="news-img-1">
+                            </div>
+                            <div class="news-content__text text-justify">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Sed quam massa, dignissim at nisi nec, iaculis molestie leo. 
+                                    Aenean hendrerit pretium enim quis rutrum. 
+                                    Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. 
+                                    Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. 
+                                    Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                                <a href="#">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="news-content__wrap col-md-6">
+                        <div class="news-content__elem news-content__elem_border-change d-flex">
+                            <a href="#" class='news-content__header'>SOME WORDS OUR CEO</a>
+                            <div class="news-content__img">
+                                <img src="./img/news-img-2.jpg" alt="news-img-2">
+                            </div>
+                            <div class="news-content__text text-justify">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Sed quam massa, dignissim at nisi nec, iaculis molestie leo. 
+                                    Aenean hendrerit pretium enim quis rutrum. 
+                                    Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. 
+                                    Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. 
+                                    Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                                <span>Steve Jobs, CEO</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-content__wrap col-md-6">
+                        <div class="news-content__elem news-content__elem_border-change d-flex">
+                            <a href="#" class='news-content__header'>about super logo</a>
+                            <div class="news-content__img">
+                                <img src="./img/news-img-3.jpg" alt="news-img-3">
+                            </div>
+                            <div class="news-content__text text-justify">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Sed quam massa, dignissim at nisi nec, iaculis molestie leo. 
+                                    Aenean hendrerit pretium enim quis rutrum. 
+                                    Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. 
+                                    Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. 
+                                    Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                                <a href="#">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-content__wrap col-md-6">
+                        <div class="news-content__elem d-flex">
+                            <a href="#" class='news-content__header'>SOME WORDS OUR CEO</a>
+                            <div class="news-content__img">
+                                <img src="./img/news-img-4.jpg" alt="news-img-4">
+                            </div>
+                            <div class="news-content__text text-justify">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Sed quam massa, dignissim at nisi nec, iaculis molestie leo. 
+                                    Aenean hendrerit pretium enim quis rutrum. 
+                                    Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. 
+                                    Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. 
+                                    Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                                <span>Steve Jobs, CEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
             </div>
 
-            <div class="news-content row">
-                <div class="news-content__item col-sm-6">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa fugiat incidunt optio voluptate blanditiis impedit eius repellendus nostrum alias? Quod delectus ducimus fugiat temporibus enim error deleniti recusandae quam debitis, quibusdam et, ad explicabo cupiditate consequatur reiciendis suscipit rerum exercitationem?
-                </div>
-                <div class="news-content__item col-sm-6">
-                    asd
-                </div>
-            </div>
         </div>
+
+        <!-- Footer -->
+
+        <footer>
+            asd
+        </footer>
     </div>
 </body>
 </html>
