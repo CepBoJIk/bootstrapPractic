@@ -5,19 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/Normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <div class="container">
         <div class="content-wrap">
-            <header class='d-flex justify-content-between'>
+            <header class='d-flex flex-wrap justify-content-between'>
                 <div class="logo text-uppercase"></div>
-                <form action="#" class='search-form'>
+                <form action="#" class='search-form d-flex flex-nowrap align-items-center flex-shrink-0'>
                     <input type="text" name="search" class=" search-form__input px-3">
                     <input type="submit" value="GO" class="search-form__btn text-white">
                 </form>
             </header>
+
+            <nav>
+                <ul class="navigation-box list-unstyled d-flex text-center text-uppercase flex-wrap">
+                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block navigation-box__link_active">home</a></li>
+                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">about us</a></li>
+                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">service</a></li>
+                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">partnersG</a></li>
+                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">customers</a></li>
+                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">project</a></li>
+                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">careers</a></li>
+                    <li class="navigation-box__item flex-fill"><a href="#" class="navigation-box__link d-block">contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="head-news">
+                <div class="head-news__text col-md-7">
+                    <h1>Aliquam pharetra vulputate</h1>
+                    <p>Vivamus est mauris, sollicitudin ut ipsum pharetra, porta rutrum turpis. 
+                        Suspendisse sollicitudin quam eget condimentum posuere. In auctor vel mi porta commodo. 
+                        Vestibulum mattis fringilla tempus. Etiam eu consectetur nisi. Aenean blandit sodales euismod. 
+                        In hac habitasse platea dictumst. </p>
+                    <input type="button" value="READ MORE">
+                </div>
+            </div>
+
+            <div class="news-content row">
+                <div class="news-content__item col-sm-6">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa fugiat incidunt optio voluptate blanditiis impedit eius repellendus nostrum alias? Quod delectus ducimus fugiat temporibus enim error deleniti recusandae quam debitis, quibusdam et, ad explicabo cupiditate consequatur reiciendis suscipit rerum exercitationem?
+                </div>
+                <div class="news-content__item col-sm-6">
+                    asd
+                </div>
+            </div>
         </div>
     </div>
 </body>

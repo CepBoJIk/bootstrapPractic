@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
 html {
-    font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
 
 body {
     border-top: 5px solid #9B51E0;
+    font-family: 'Roboto', sans-serif;
 }
 
 input, button {
@@ -19,14 +19,16 @@ input, button {
 }
 
 header {
-    padding-top: 20px;
+    padding: 20px 0 16px;
 }
 
 .logo {
     position: relative;
     box-sizing: border-box;
+    flex-shrink: 0;
     width: 50px;
     height: 48px;
+    margin-right: 125px;
     border: 3px solid #FFC740;
     cursor: pointer;
 }
@@ -39,29 +41,109 @@ header {
     background-color: #fff;
     font-size: 2rem;
     line-height: 1.2;
+    font-weight: bold;
     white-space: nowrap;
+    font-style: normal;
 }
+
+/* --- Search form --- */
 
 .search-form {
     width: 201px;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
 }
 
 .search-form__input {
     flex-basis: 80%;
-    flex-shrink: 0;
+    border: 1px solid #6D3D99;
 }
 
 .search-form__btn {
     flex-basis: 20%;
-    background-color: #6D3D99;
+    background-color: #9B51E0;
+    border: 1px solid #9B51E0;
     cursor: pointer;
 }
 
 .search-form__input,
 .search-form__btn {
-    border: 1px solid #6D3D99;
     height: 33px;
 }
+
+/* --- Navigation --- */
+
+nav {
+    margin-bottom: 17px;
+}
+
+.navigation-box__item {
+    width: 12.5%;
+    min-width: 8rem;
+}
+
+.navigation-box__link {
+    line-height: 47px;
+    font-size: 1.17rem;
+    color: #000;
+}
+
+.navigation-box__link:hover,
+.navigation-box__link_active {
+    color: #fff;
+    background-color: #FFC740;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* --- Head news --- */
+
+.head-news {
+    background:#9B51E0 url('../img/header-news-bg.jpg') center center;
+    background-size: cover;
+}
+
+.head-news__text {
+    padding: 20px 0 20px 40px;
+}
+
+.head-news__text h1 {
+    color: #FFC740;
+    font-size: 5.33rem;
+    font-weight: normal;
+    line-height: 1.1;
+    padding-bottom: 6px;
+    padding-right: 10px;
+}
+
+.head-news__text p {
+    padding-right: 14%;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 1.17rem;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.head-news__text input {
+    padding: 0 2.03rem;
+    font-size: 1.16rem;
+    line-height: 2.45;
+    border: none;
+    color: #fff;
+    background-color: #6D3D99;
+    cursor: pointer;
+}
+
+/* --- News content --- */
+
+.news-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.news-content__item {
+    padding: 0 10px;
+}
+
+
+
+
