@@ -226,16 +226,92 @@ nav {
     padding-bottom: 10px;
 }
 
-.news-content__text a {
+.news-content__link {
     color: #000;
     text-decoration: underline;
     line-height: 1.17rem;
 }
 
+/* --- Footer news --- */
 
+.footer-news {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.17;
+}
+
+.footer-news__wrap {
+    padding: 0 10px;
+    margin-bottom: 33px;
+}
+
+.footer-news__wrap:nth-child(2n+1) .footer-news__element {
+    border-color: #FFC740;
+}
+
+.footer-news__wrap:nth-child(2n+1) .footer-news__element .footer-news__header:hover {
+    color: #FFC740;
+}
+
+.footer-news__text {
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.recent-element {
+    margin-bottom: 6px;
+}
+
+.recent-element__img,
+.recent-element__text {
+    padding: 0;
+}
+
+.recent-element__img {
+    max-width: 16.7%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.recent-element__img img {
+    max-width: 100%;
+    border: 1px solid #C4C4C4;
+}
+
+.recent-element__text h5 {
+    font-size: 1rem;
+    line-height: 1.17;
+    font-weight: normal;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.recent-element__text p {
+    margin-bottom: 0;
+}
+
+/* --- Clients --- */
+
+.clients {
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px 6.17%;
+}
+
+/* --- Footer --- */
 
 footer {
     flex: 0 0 auto;
+    background-color: #6D3D99;
+    text-align: center;
+}
+
+footer span {
+    line-height: 115px;
+    color: #fff;
+    font-size: 1.16rem;
+    font-weight: 500;
 }
 
 
